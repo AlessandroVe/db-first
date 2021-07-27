@@ -1,14 +1,13 @@
 name: cars
 
-Column      Type                     attributes                  index
+Column          Type                     attributes                  index
 
-id          BIGINT UNSIGNED          AUTO_INCREMENT,NOT NULL     PRIMARY KEY
-title       VARCHAR(255)             NOT NULL
-author      VARCHAR(255)             NOT NULL
-year        YEAR                     NULL
-publisher   VARCHAR(55)              NOT NULL
-plot        TEXT                     NULL
-isbn        VARCHAR(17)              NOT NULL,UNIQUE             INDEX
-n_pagine    SMALLINT UNSIGNED        NOT NULL 
-genere      VARCHAR(255)             NOT NULL
-language    VARCHAR(2)               NOT NULL 
+id              BIGINT UNSIGNED          AUTO_INCREMENT,NOT NULL     PRIMARY KEY
+author          VARCHAR(255)             NOT NULL                    INDEX  
+brand           VARCHAR(255)             NOT NULL                    INDEX   
+year            YEAR                     NOT NULL
+model           VARCHAR(255)             NOT NULL
+serial_number   VARCHAR(17)              NOT NULL,UNIQUE             
+n_porte         TINYINT UNSIGNED         NOT NULL                    INDEX   
+genere          VARCHAR(255)             NOT NULL
+displacement    SMALLINT UNSIGNED        NOT NULL                    INDEX
