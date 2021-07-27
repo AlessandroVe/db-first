@@ -11,3 +11,8 @@ serial_number   VARCHAR(17)              NOT NULL,UNIQUE
 n_porte         TINYINT UNSIGNED         NOT NULL                    INDEX   
 genere          VARCHAR(255)             NOT NULL
 displacement    SMALLINT UNSIGNED        NOT NULL                    INDEX
+
+
+
+
+
